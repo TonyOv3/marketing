@@ -1,0 +1,403 @@
+a:link {
+    text-decoration: none;
+   }
+   
+   .container header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: whitesmoke;
+    padding: 20px;
+   
+   
+   }
+   
+   .container header nav  {
+      // margin-bottom: 20px;
+      background-color: none;
+      font-size: 16px;
+      color: black;
+      width: 100%;
+   
+    }
+   
+    .container nav   {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+   
+    }
+
+    .canni-main-header {
+      width: 100%;
+      border-radius: 20px;
+    }
+
+    /**LESS**/
+    .border () {
+        padding: 10px 0;
+     
+     }
+     
+     .custom-btn (@width: 100px, @bg-color: navy, @font-color: white) {
+        width: @width;
+        background-color: @bg-color;
+        color: @font-color;
+        font-size: 2rem;
+     
+      }
+     
+     .btn {
+        .custom-btn(105px, navy, white);
+      }
+     footer {
+      color: #22283B;
+      background: #f4f4f4;
+      padding: 20px 0;
+      border: 1px double #e0e0e0;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     @import "variables";
+     @import "mixins";
+     @import "reset";
+     @import "global";
+     @import "navigation";
+     @import "footer";
+     @import "home-page";
+
+
+     .btn {
+        width: 105px;
+        background-color: navy;
+        color: white;
+        font-size: 2rem;
+        hover: black;
+       }
+       /* http://meyerweb.com/eric/tools/css/reset/
+         v2.0 | 20110126
+         License: none (public domain)
+       */
+       html,
+       body,
+       div,
+       span,
+       applet,
+       object,
+       iframe,
+       h1,
+       h2,
+       h3,
+       h4,
+       h5,
+       h6,
+       p,
+       blockquote,
+       pre,
+       a,
+       abbr,
+       acronym,
+       address,
+       big,
+       cite,
+       code,
+       del,
+       dfn,
+       em,
+       img,
+       ins,
+       kbd,
+       q,
+       s,
+       samp,
+       small,
+       strike,
+       strong,
+       sub,
+       sup,
+       tt,
+       var,
+       b,
+       u,
+       i,
+       center,
+       dl,
+       dt,
+       dd,
+       ol,
+       ul,
+       li,
+       fieldset,
+       form,
+       label,
+       legend,
+       table,
+       caption,
+       tbody,
+       tfoot,
+       thead,
+       tr,
+       th,
+       td,
+       article,
+       aside,
+       canvas,
+       details,
+       embed,
+       figure,
+       figcaption,
+       footer,
+       header,
+       hgroup,
+       menu,
+       nav,
+       output,
+       ruby,
+       section,
+       summary,
+       time,
+       mark,
+       audio,
+       video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+       }
+       /* HTML5 display-role reset for older browsers */
+       article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,
+       section {
+        display: block;
+       }
+       body {
+        line-height: 1;
+       }
+       ol,
+       ul {
+        list-style: none;
+       }
+       blockquote,
+       q {
+        quotes: none;
+       }
+       blockquote:before,
+       blockquote:after,
+       q:before,
+       q:after {
+        content: '';
+        content: none;
+       }
+       table {
+        border-collapse: collapse;
+        border-spacing: 0;
+       }
+       * {
+        box-sizing: border-box;
+       }
+       html {
+        font-size: 62.5%;
+       }
+       html,
+       body {
+        font-family: 'Ubuntu', sans-serif;
+        color: #5E6164;
+       }
+       h1,
+       h2,
+       h3,
+       h4,
+       h5 {
+        font-family: 'Russo One', sans-serif;
+        color: #23293B;
+       }
+       h2 {
+        font-size: 3.2rem;
+       }
+       h3 {
+        font-size: 2.8rem;
+       }
+       p {
+        font-size: 1.6rem;
+        line-height: 1.4;
+       }
+       .container {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+       }
+       a:link {
+        text-decoration: none;
+       }
+       .container header h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        /* background-color: whitesmoke; */
+        padding: 20px;
+       }
+       .container header nav {
+        /* background-color: whitesmoke; */
+        font-size: 16px;
+        color: black;
+        width: 100%;
+       }
+       .container nav {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        width: 100%;
+       }
+       footer {
+        color: #22283B;
+        background: none;
+        padding: 20px 0;
+        border: 1px double #e0e0e0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .intro {
+        width: 100%;
+        border-radius: 20px; 
+       }
+       
+       .strains-img {
+        display: flex; 
+        width: 100%;
+        border-radius: 20px;
+      }
+
+        .intro h2 {
+        padding: 15px;
+       }
+       .intro p {
+        padding: 0 15px;
+       }
+       .main-header {
+        width: 100%;
+        border-radius: 20px;
+       }
+    
+       @media only screen and (max-width: 500px) {
+        .main-header {
+          width: 100%;
+        }
+       }
+
+       .strains-img {
+        display: flex; 
+        width: 95%;
+        border-radius: 20px;
+       }
+
+       .strain-images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        border-radius: 20px;
+       }
+       .strain-images img {
+        width: 28%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 75%;
+       }
+       @media only screen and (max-width: 500px) {
+        .strain-images img {
+          width: 75%;
+        }
+       }
+       .Pointing-info {
+        padding: 15px;
+       }
+       .Pointing-info h3 {
+        margin-top: 10px;
+       }
+       .Pointing-info p {
+        margin-top: 13px;
+       }
+       .strains {
+        margin-top: 60px;
+        border-top: 1px solid #dee2e6;
+        padding: 50px 60px;
+       }
+       .strain-row {
+        display: flex;
+        justify-content: center;
+       }
+       @media only screen and (max-width: 500px) {
+        .strain-row {
+          flex-direction: column-reverse;
+        }
+       }
+       .strains-text {
+        width: 100%;
+       }
+       .strains-text h3 {
+        margin-bottom: 10px;
+       }
+       .strains-text p {
+        margin-bottom: 26px;
+       }
+       @media only screen and (max-width: 500px) {
+        .strains-text {
+          width: 100%;
+        }
+       }
+       .strains-img {
+        width: 46%;
+        margin-left: 4%;
+       }
+       .strains-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+       }
+       @media only screen and (max-width: 500px) {
+        .strains-img {
+          width: 100%;
+        }
+       }
+       .indica {
+        width: 100%;
+       }
+       @media only screen and (max-width: 500px) {
+        .indica {
+          width: 100%;
+        }
+       }
+       .sativa {
+        width: 100%;
+       }
+       @media only screen and (max-width: 500px) {
+        .sativa {
+          /* display: none; */
+        }
+       }
+       .ruderalis {
+        width: 100%;
+       }
+       @media only screen and (max-width: 500px) {
+        .ruderalis {
+          /* display: none; */
+        }
+       }
+       .btn {
+        width: 100px;
+       }
+       @media only screen and (max-width: 500px) {
+        .btn {
+          width: 100%;
+        }
+       }
