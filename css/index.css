@@ -56,6 +56,7 @@ a:link {
      .btn {
         .custom-btn(105px, navy, white);
       }
+
      footer {
       color: #22283B;
       background: #f4f4f4;
@@ -344,13 +345,6 @@ a:link {
         justify-content: center;
        }
 
-       /* About Page  */
-
-       .container .gallery {
-         display: grid;
-         grid-template-rows: 1fr 1fr 1fr;
-         grid-template-rows: 1fr 1fr 1fr;
-       }
        @media only screen and (max-width: 500px) {
         .strain-row {
           flex-direction: column-reverse;
@@ -415,4 +409,159 @@ a:link {
         .btn {
           width: 100%;
         }
+       }
+
+        /* About Page  */
+
+        h3{ 
+          font-size: 14px;
+
+        }
+
+        .team-intro-text{
+          display: flex;
+          justify-content: center;
+        }
+
+       .gallery {
+         margin: 10px;
+          display: grid;
+          grid-template-rows: 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .gallery .box-1{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+          
+        }
+
+        .gallery .box-1:hover{
+           filter: grayscale(0%);
+           filter: gray;
+           -webkit-filter: grayscale(0%);
+           filter: none;
+           transition: 1s ease;
+        }
+
+        .gallery .box-2{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-2:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
+       }
+
+        .gallery .box-3{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-3:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
+       }
+
+        .gallery .box-4{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-4:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
+       }
+
+        .gallery .box-5{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-5:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
+       }
+
+        .gallery .box-6{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-6:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
+       }
+
+        .gallery .box-7{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-7:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
+       }
+
+        .gallery .box-8{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-8:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
+       }
+
+        .gallery .box-9{
+          margin: 15px 2.5%;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+          -webkit-transition: all 1s ease;
+        }
+
+        .gallery .box-9:hover{
+          filter: grayscale(0%);
+          filter: gray;
+          -webkit-filter: grayscale(0%);
+          filter: none;
+          transition: 1s ease;
        }
