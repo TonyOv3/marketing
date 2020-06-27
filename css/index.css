@@ -232,9 +232,10 @@ a:link {
         line-height: 1.4;
        }
        .container {
-        max-width: 800px;
-        width: 100%;
+        max-width: 95%;
+        /* width: 100%; */
         margin: 0 auto;
+        /* background-image: url('../img/elements-isometric-medical-cannabis-vector-concept-52WYKGV-2019-08-14/JPG/AllIsometricAug-31-01.jpg'); */
         background-repeat: no-repeat;
         background-attachment: fixed;  
         background-size: cover;
@@ -249,6 +250,12 @@ a:link {
         /* background-color: whitesmoke; */
         padding: 20px;
        }
+
+       .container header h2{
+         display: flex;
+         justify-content: center;
+       }
+
        .container header nav {
         /* background-color: whitesmoke; */
         font-size: 16px;
@@ -263,6 +270,14 @@ a:link {
         margin-bottom: 10px;
         width: 100%;
        }
+
+       .container .upper-room{
+         background-image: url('../img/elements-isometric-medical-cannabis-vector-concept-52WYKGV-2019-08-14/JPG/AllIsometricAug-31-01.jpg');
+         opacity: .6;
+       }
+
+       
+
        footer {
         color: #22283B;
         background: none;
@@ -280,6 +295,13 @@ a:link {
         border-radius: 20px; 
        }
        
+       .strain-intro-text h2,h3, h4 {
+         display: flex;
+         /* flex-direction: column; */
+         justify-content: center;
+         align-content: center;
+       }
+
        .strains-img {
         display: flex; 
         width: 100%;
